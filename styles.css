@@ -47,6 +47,19 @@ nav a {
 nav a:hover {
     color: #FF8A05;
 }
+nav .login-link {
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 5px;
+    background-color: #FF8A05;
+    color: #000;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+nav .login-link:hover {
+    background-color: #e87900;
+    color: #000;
+}
 .hero {
     text-align: center;
     padding: 15px 0;
